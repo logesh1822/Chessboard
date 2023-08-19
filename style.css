@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(87, 85, 85);
+    background-image: url("chess.jpg");
+    background-size:cover;
+    
+
+}
+
+h1{
+    color: rgb(241, 239, 238);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chess-board {
+     border-spacing: 30; border-collapse: collapse;
+     margin: auto;
+     
+     }
+
+.chess-board td {
+     border: 1px solid; width: 68px; height: 68px;
+     
+     }
+
+
+.chess-board td:hover{
+    transform: scale(1.3);
+     transition:0.3s;
+}
+
+.chess-board .light { 
+    background: #f5f4f3; 
+}
+.chess-board .dark { 
+    background: #272527; 
+}
+
+
+h5{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+h5:hover{
+    
+    transform: scale(1.3);
+    transition:0.3s;
+
+} 
